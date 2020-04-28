@@ -1,4 +1,4 @@
-# dx-ui
+# cindyui
 
 ## Project setup
 ```
@@ -22,5 +22,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-操作步骤：
-vue-cli 新建一个项目

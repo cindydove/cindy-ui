@@ -1,21 +1,23 @@
 <template>
-    <div class="dx-button">
-       <slot>按钮</slot>
+    <div class="x-button">
+        <slot></slot>
     </div>
 </template>
 
 <script>
     export default {
-        name: "dx-button",
-
+        name: 'x-button',
+        props: {
+            type: String
+        }
     }
 </script>
 
 <style scoped>
-    .dx-button{
+    .x-button {
         display: inline-block;
         padding: 3px 6px;
-        background:#000;
-        color:#fff;
+        background: #000;
+        color: #fff;
     }
 </style>
